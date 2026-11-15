@@ -1,189 +1,135 @@
-**Campus Complaint Management System**
+🛡️ Campus Complaint Management System
 
-
-
-A desktop-based Campus Complaint Management System developed using Java Swing, JDBC, and MySQL.
-
-
+A desktop-based Campus Complaint Management System developed using Java, Java Swing, JDBC, and MySQL.
 
 The application allows students to submit and track campus complaints, while administrators can manage complaints, update their status, and provide remarks.
 
+📌 Features
 
+👨‍🎓 Student Module
 
-**Features**
+- Student registration and login.
+- Submit campus complaints.
+- Select complaint categories.
+- Track personal complaints.
+- View complaint status.
+- View admin remarks.
+- Search complaints by category.
 
-* Student Module
-* Student registration and login.
-* Submit campus complaints.
-* Select complaint categories.
-* Track personal complaints.
-* View complaint status.
-* View admin remarks.
-* Search complaints by category.
+🛡️ Admin Module
 
+- Secure admin login (role-based access).
+- View all student complaints.
+- Search complaints by student name.
+- View complaint descriptions and dates.
+- Update complaint status.
+- Add administrative remarks.
 
+📷 Application Screenshots
 
-**Admin Module**
+🔐 1. Login & Student Registration
 
-* Secure admin login (role-based access).
-* View all student complaints.
-* Search complaints by student name.
-* View complaint descriptions and dates.
-* Update complaint status.
-* Add administrative remarks.
+System Login| Student Registration
+""System Login" (assets/login.png)" (assets/login.png)| ""Student Registration" (assets/register.png)" (assets/register.png)
 
+🏠 2. Student Dashboard
 
+""Student Dashboard" (assets/student-dashboard.png)" (assets/student-dashboard.png)
 
-\## Application Screenshots
+"🔗 View Student Dashboard Output" (assets/student-dashboard.png)
 
+📊 3. Admin Dashboard
 
+Track & Search Complaints
 
-\### 1. Login \& Student Registration
+""Admin Dashboard - Track Complaints" (assets/admin-track-complaints.png)" (assets/admin-track-complaints.png)
 
-| System Login | Student Registration |
+"🔗 View Admin Track Complaints Output" (assets/admin-track-complaints.png)
 
-| \[System Login](assets/login.png) | \[Student Registration](assets/register.png) |
+Manage Ticket Status & Remarks
 
+""Admin Dashboard - Manage Ticket Status" (assets/admin-manage-status.png)" (assets/admin-manage-status.png)
 
+"🔗 View Admin Manage Status Output" (assets/admin-manage-status.png)
 
-\### 2. Student Dashboard
+🛠️ Technologies Used
 
-\[Student Dashboard](assets/student dashboard.png)
+- Java
+- Java Swing (GUI)
+- JDBC
+- MySQL
+- MySQL Connector/J
+- Eclipse IDE
 
+📂 Complaint Categories
 
+- Infrastructure
+- IT & Network
+- Hostel & Mess
+- Library
+- E-Waste / Devices
+- Other
 
-\### 3. Admin Dashboard
+📋 Complaint Status
 
-\*\*Track \& Search Complaints\*\*
+- Pending
+- In Progress
+- Resolved
+- Rejected
 
-\[Admin Dashboard - Track Complaints](assets/admin-track-complaints.png)
+🗄️ Database
 
+Database Name: "complaint_db"
 
+Tables:
 
-\*\*Manage Ticket Status \& Remarks\*\*
+- "users" – Stores student and admin login details.
+- "complaints" – Stores complaint details, status, remarks, and user ID.
 
-\[Admin Dashboard - Manage Ticket Status](assets/admin-manage-status.png)
-
-
-
-**Technologies Used**
-
-* Java
-* Java Swing (GUI)
-* JDBC
-* MySQL
-* MySQL Connector/J
-* Eclipse IDE
-
-
-
-**Complaint Categories**
-
-* Infrastructure
-* IT \& Network
-* Hostel \& Mess
-* Library
-* E-Waste / Devices
-* Other
-
-
-
-**Complaint Status**
-
-* Pending
-* In Progress
-* Resolved
-* Rejected
-
-
-
-**Database**
-
-
-
-Database name: complaint\_db
-
-
-
-**Tables:**
-
-
-
-* users – Stores student and admin login details.
-* complaints – Stores complaint details, status, remarks, and user ID.
-
-
-
-**How to Run**
+⚙️ How to Run
 
 1. Clone or download this repository.
 2. Open the project in Eclipse IDE.
-3. Create a MySQL database named complaint\_db.
-4. Configure the database connection in DBConnection.java.
+3. Create a MySQL database named "complaint_db".
+4. Configure the database connection in "DBConnection.java".
 5. Import MySQL Connector/J into the project.
 6. Create the required database tables.
-7. Configure the database password using the DB\_PASSWORD environment variable.
-8. Run LoginFrame.java.
+7. Configure the database password using the "DB_PASSWORD" environment variable.
+8. Run "LoginFrame.java".
 
-
-
-**Login System**
+🔑 Login System
 
 The application redirects users based on their database role:
 
-
-
-Student → Student Dashboard
-
-Admin → Admin Dashboard
-
-
+- Student → Student Dashboard
+- Admin → Admin Dashboard
 
 Student registration automatically assigns the Student role.
 
+📁 Project Structure
 
-
-**Project Structure**
-
-
-
-**ComplaintManagementSystem/**
-
-├── **assets/**
-
+ComplaintManagementSystem/
+│
+├── assets/
 │   ├── login.png
-
 │   ├── register.png
-
 │   ├── student-dashboard.png
-
 │   ├── admin-track-complaints.png
-
 │   └── admin-manage-status.png
-
-├── **src/**
-
+│
+├── src/
 │   └── com/
-
 │       └── cms/
-
 │           ├── DBConnection.java
-
 │           ├── LoginFrame.java
-
 │           ├── RegisterFrame.java
-
 │           ├── StudentDashboardFrame.java
-
 │           └── AdminDashboardFrame.java
+│
+├── .gitignore
+└── README.md
 
-├── **.gitignore**
-
-└── **README.md**
-
-
-
-**Future Enhancements**
+💡 Future Enhancements
 
 1. Password encryption using BCrypt.
 2. Complaint status notifications.
@@ -191,15 +137,10 @@ Student registration automatically assigns the Student role.
 4. Image attachments for complaints.
 5. Dashboard analytics and reports.
 
-
-
-**Author**
+👩‍💻 Author
 
 Developed as a Java-based academic project.
 
-
-
-**License**
+📜 License
 
 This project is available for educational purposes.
-
