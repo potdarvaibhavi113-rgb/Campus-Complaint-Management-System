@@ -30,27 +30,27 @@ The application allows students to submit and track campus complaints, while adm
 🔐 1. Login & Student Registration
 
 System Login| Student Registration
-""System Login" (assets/login.png)" (assets/login.png)| ""Student Registration" (assets/register.png)" (assets/register.png)
+"Login" (./assets/login.png)| "Registration" (./assets/register.png)
 
 🏠 2. Student Dashboard
 
-""Student Dashboard" (assets/student-dashboard.png)" (assets/student-dashboard.png)
+"Student Dashboard" (./assets/student%20dashboard.png)
 
-"🔗 View Student Dashboard Output" (assets/student-dashboard.png)
+🔗 "Click Here to View Student Dashboard Output" (./assets/student%20dashboard.png)
 
 📊 3. Admin Dashboard
 
 Track & Search Complaints
 
-""Admin Dashboard - Track Complaints" (assets/admin-track-complaints.png)" (assets/admin-track-complaints.png)
+"Admin Track Complaints" (./assets/admin-track-complaints.png)
 
-"🔗 View Admin Track Complaints Output" (assets/admin-track-complaints.png)
+🔗 "Click Here to View Admin Track Complaints Output" (./assets/admin-track-complaints.png)
 
 Manage Ticket Status & Remarks
 
-""Admin Dashboard - Manage Ticket Status" (assets/admin-manage-status.png)" (assets/admin-manage-status.png)
+"Admin Manage Status" (./assets/admin-manage-status.png)
 
-"🔗 View Admin Manage Status Output" (assets/admin-manage-status.png)
+🔗 "Click Here to View Admin Manage Status Output" (./assets/admin-manage-status.png)
 
 🛠️ Technologies Used
 
@@ -108,12 +108,12 @@ Student registration automatically assigns the Student role.
 
 📁 Project Structure
 
-ComplaintManagementSystem/
+Campus-Complaint-Management-System/
 │
 ├── assets/
 │   ├── login.png
 │   ├── register.png
-│   ├── student-dashboard.png
+│   ├── student dashboard.png
 │   ├── admin-track-complaints.png
 │   └── admin-manage-status.png
 │
