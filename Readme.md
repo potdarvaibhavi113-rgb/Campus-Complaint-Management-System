@@ -25,32 +25,27 @@ The application allows students to submit and track campus complaints, while adm
 - Update complaint status.
 - Add administrative remarks.
 
-📷 Application Screenshots
+## 📷 Application Screenshots
 
-🔐 1. Login & Student Registration
+### 🔐 1. Login & Student Registration
 
-System Login| Student Registration
-""System Login" (./assets/login.png)" (./assets/login.png)| ""Student Registration" (./assets/register.png)" (./assets/register.png)
+| System Login | Student Registration |
+|---|---|
+| ![Login](./assets/login.png) | ![Registration](./assets/register.png) |
 
-🏠 2. Student Dashboard
+### 🏠 2. Student Dashboard
 
-""Student Dashboard" (./assets/student%20dashboard.png)" (./assets/student%20dashboard.png)
+[![Student Dashboard](./assets/student%20dashboard.png)](./assets/student%20dashboard.png)
 
-🔗 "View Student Dashboard Output" (./assets/student%20dashboard.png)
+### 📊 3. Admin Dashboard
 
-📊 3. Admin Dashboard
+**Track & Search Complaints**
 
-Track & Search Complaints
+[![Admin Track Complaints](./assets/admin-track-complaints.png)](./assets/admin-track-complaints.png)
 
-""Admin Dashboard - Track Complaints" (./assets/admin-track-complaints.png)" (./assets/admin-track-complaints.png)
+**Manage Ticket Status & Remarks**
 
-🔗 "View Admin Track Complaints Output" (./assets/admin-track-complaints.png)
-
-Manage Ticket Status & Remarks
-
-""Admin Dashboard - Manage Ticket Status" (./assets/admin-manage-status.png)" (./assets/admin-manage-status.png)
-
-🔗 "View Admin Manage Ticket Status Output" (./assets/admin-manage-status.png)
+[![Admin Manage Status](./assets/admin-manage-status.png)](./assets/admin-manage-status.png)
 
 🛠️ Technologies Used
 
@@ -106,8 +101,9 @@ The application redirects users based on their database role:
 
 Student registration automatically assigns the Student role.
 
-📁 Project Structure
+## 📁 Project Structure
 
+```text
 Campus-Complaint-Management-System/
 │
 ├── assets/
@@ -128,6 +124,7 @@ Campus-Complaint-Management-System/
 │
 ├── .gitignore
 └── README.md
+```
 
 💡 Future Enhancements
 
